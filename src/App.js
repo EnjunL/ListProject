@@ -23,7 +23,7 @@ export default function App() {
     createObject("Yifei", "Du", "Balboa", "2022", "black"),
     createObject("Hector", "Del Valle", "JOCHS", "2022", "gray")
   ];
-
+  //Im lost
   console.log(createObject("Ana", "Rivera", "Darkly", "2021", "green"));
 
   return (
