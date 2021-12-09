@@ -9,6 +9,7 @@ export default function App() {
       gradYear: gradYear,
       color: color
     };
+    return <span> {(first, last)} </span>;
   }
   let classRoster = [
     createObject("Victor", "Lymar", "LaunchDarkly", "1923", "green"),
@@ -33,3 +34,17 @@ export default function App() {
     </div>
   );
 }
+  createObject("Victor", "Lymar", "LaunchDarkly", "1923", "green"),
+  createObject("Traci", "S", "Launch", "2022", "purple"),
+  createObject("Ida", "Voong", "Oakland Tech", "2022", "blue"),
+  createObject("Ana", "Rivera", "CSU Eastbay", "2021", "green"),
+  createObject("Aidan", "Fuller", "Oakland Tech", "2022", "red"),
+  createObject("kyle", "Wan", "Oakland Tech", "2023", "yea"),
+  createObject("Enjun", "Li", "JOCHS", "2022", "black"),
+  createObject("Luis", "Garcia", "CSU Eastbay", "2025", "black"),
+  createObject("Amanda", "Yu", "Oakland Tech", "2022", "blue"),
+  createObject("Yifei", "Du", "Balboa", "2022", "black"),
+  createObject("Hector", "Del Valle", "JOCHS", "2022", "gray")
+];
+
+console.log(createObject("Ana", "Rivera", "Darkly", "2021", "green"));
